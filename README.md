@@ -3,7 +3,7 @@ This project implements and backtests an automated trading strategy known as the
 
 The strategy leverages the concept of high gamma exposure near expiry, identifying breakout opportunities from low-volatility, range-bound price action during the trading day. It focuses on high-probability option plays that offer 2:1 and 3:1 risk-to-reward setups, triggered by late-day momentum and straddle price structure breaks.
 
-🔍 Strategy Logic
+Strategy Logic
 1. Monitor intraday price action from 9:30 AM to 2:30 PM.
 
 2. If the price range (high − low) is less than 1%, proceed.
